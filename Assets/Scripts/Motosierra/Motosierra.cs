@@ -2,15 +2,42 @@ using UnityEngine;
 
 public class Motosierra : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private GameObject spriteMotosierra; // Referencia al sprite o parte visual
+
+    private void OnEnable()
     {
-        
+        RanaVida.EventoPersonajeDerrotado += DesactivarMotosierra;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        RanaVida.EventoPersonajeDerrotado -= DesactivarMotosierra;
+    }
+
+    private void DesactivarMotosierra()
+    {
+        if (spriteMotosierra != null)
+        {
+            spriteMotosierra.SetActive(false);
+        }
+        else
+        {
+            gameObject.SetActive(false); // alternativa si no estás usando un hijo
+        }
+    }
+
+    public void ReactivarMotosierra()
+    {
+        if (spriteMotosierra != null)
+        {
+            spriteMotosierra.SetActive(true);
+
+            Animator animator = spriteMotosierra.GetComponent<Animator>();
+            if (animator != null)
+            {
+                animator.Play("Idle"); // Asegurate de usar el nombre exacto de la animación inicial
+            }
+        }
+        Debug.Log("Motosierra activada: " + spriteMotosierra.activeSelf);
     }
 }

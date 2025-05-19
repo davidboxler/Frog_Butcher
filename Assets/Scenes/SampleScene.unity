@@ -1066,6 +1066,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50fb55d9b2a71da4f9c92c0075fb8307, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteMotosierra: {fileID: 1290084488}
 --- !u!1 &1335525574
 GameObject:
   m_ObjectHideFlags: 0

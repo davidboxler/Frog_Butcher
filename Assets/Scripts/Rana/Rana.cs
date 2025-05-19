@@ -16,5 +16,16 @@ using UnityEngine;
     {
         PersonajeVida.RestaurarPersonaje();
         PersonajeAnimaciones.RevivirPersonaje();
+
+        Motosierra motosierra = GetComponentInChildren<Motosierra>(true); // ← ¡IMPORTANTE!
+        if (motosierra != null)
+        {
+            Debug.Log("Motosierra encontrada, reactivando...");
+            motosierra.ReactivarMotosierra();
+        }
+        else
+        {
+            Debug.LogWarning("Motosierra NO encontrada como hijo.");
+        }
     }
 }
