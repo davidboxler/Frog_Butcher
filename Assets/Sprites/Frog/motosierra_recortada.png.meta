@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 847738bea61db6745b08746501cb5bce
+guid: 18a2bb7d39c5e86449c0d54f142a7bec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5608482153059104696
-    second: ranacamina-sprite_0
+      213: -5472290772378694408
+    second: motosierra_recortada_0
   - first:
-      213: 4614552423768250410
-    second: ranacamina-sprite_1
-  - first:
-      213: -3747524096687748646
-    second: ranacamina-sprite_2
-  - first:
-      213: 5523194665728502585
-    second: ranacamina-sprite_3
+      213: 807555085684421312
+    second: motosierra_recortada_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,89 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ranacamina-sprite_0
+      name: motosierra_recortada_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 50
-        height: 50
+        width: 250
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b7b43e9dc455dd40800000000000000
-      internalID: 5608482153059104696
+      spriteID: 8fc48b439848e04b0800000000000000
+      internalID: -5472290772378694408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ranacamina-sprite_1
+      name: motosierra_recortada_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 250
         y: 0
-        width: 50
-        height: 50
+        width: 250
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a28df100bfe2a0040800000000000000
-      internalID: 4614552423768250410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ranacamina-sprite_2
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad9c5b570be1efbc0800000000000000
-      internalID: -3747524096687748646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ranacamina-sprite_3
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 0
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 93b641c094456ac40800000000000000
-      internalID: 5523194665728502585
+      spriteID: 1d51c81a09954d840bcc5d8807c1b49f
+      internalID: 886178997
       vertices: []
       indices: 
       edges: []
@@ -200,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b65fa544b7fc02d46b814a4638de6444
+    spriteID: 597ad547815bca34ea6a7f7275e1f0d4
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ranacamina-sprite_0: 5608482153059104696
-      ranacamina-sprite_1: 4614552423768250410
-      ranacamina-sprite_2: -3747524096687748646
-      ranacamina-sprite_3: 5523194665728502585
+      motosierra_recortada_0: -5472290772378694408
+      motosierra_recortada_1: 886178997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
